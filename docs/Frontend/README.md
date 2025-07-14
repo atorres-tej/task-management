@@ -23,9 +23,13 @@ pnpm install
 ```bash
 # Copy the example file
 cp .env.example .env.local
+
+# Edit .env.local with your credentials
+# You can use any text editor
+notepad .env.local
 ```
 
-**Note**: You can use the default values in `.env.local` as provided, or replace them with your own Microsoft OAuth credentials if you prefer.
+**Important**: Replace the placeholder values in `.env.local` with your actual Microsoft OAuth credentials, or contact the project maintainer for development credentials.
 
 ### 4. Run the development server
 ```bash
